@@ -1,0 +1,19 @@
+on: [push]
+
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Publish Logseq graph
+    steps:
+      - uses: actions/checkout@v3
+      - uses: logseq/publish-spa@v0.3.1  # 必须修改为最新的版本号，否则网站没有内容
+        with:
+          graph-directory: src/parenting # 修改logseq路径
+      - name: Add a nojekyll file # to make sure asset paths are correctly identified
+        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: www

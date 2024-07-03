@@ -1,0 +1,15 @@
+/node_modules
+/.nbb
+/.cpcache
+.DS_Store
+src/parenting/logseq/bak/
+src/parenting/logseq/.recycle/
+src/parenting/pages/design files/
+src/parenting/pages/.DS_Store
+src/parenting/pages/system files/.DS_Store\
+src/parenting/.obsidian
+# src/feynman_OS/journals/
+# test/
+
+# src/feynman_OS/pages/design files
+# /Users/howie.serious/Library/Mobile Documents/iCloud~com~logseq~logseq/Documents/template-费曼学习OS/src/feynman_OS/pages/design files
