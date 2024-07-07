@@ -1,4 +1,5 @@
-tags:: #p3-🪴budding-抽条, #⚙️费曼学习OS, #s5-★★★★★
+tags:: #p3-🪴budding-抽条, #⚙️费曼学习OS
+note-date: [[Jul 7th, 2024]] 
 exclude-from-graph-view:: true
 
 - daily routine
@@ -27,8 +28,8 @@ exclude-from-graph-view:: true
 		  Respond in Chinese.
 - ### candobear 2w2h feynman notes template(适合做操作性的大法模板）
   template:: 2w2h feynman model
-	- tags:: #p1-🫐seed-种子, #s1-★☆☆☆☆
-	- note-date: <%today%>
+	- tags:: #p1-🫐seed-种子
+	  note-date: <%today%>
 	- ## inbox
 	- ## todo
 	- ## why
@@ -50,8 +51,8 @@ exclude-from-graph-view:: true
 	-
 - ### 主题研究模板
   template:: 主题研究模板
-	- tags:: #p1-🫐seed-种子, #s5-★★★★★
-	- note-date: <%today%>
+	- tags:: #p1-🫐seed-种子
+	  note-date: <%today%>
 	- ## Why
 		- 学习必须是问题导向的学习：与我何干，你有一个任务、问题需要解决，搭建知识树的目的和原因
 	- ## What
