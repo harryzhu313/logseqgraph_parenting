@@ -9,8 +9,8 @@ collapsed:: true
 	- #303-LifeExperience-生活经验，积累与体会
 	- #304-Tour-旅游规划
 - ## 🌲 BoK 知识体系
-  collapsed:: true
 	- ### 知识树视图 bok perspective
+		- {{query (property :tags "#🌲BoK-知识体系")}}
 		- {{query (property :tags "#🌲BoK-主题研究")}}
 	- ### 重要性视图 importance perspective
 		- #s5-★★★★★
@@ -64,6 +64,6 @@ collapsed:: true
 	- #300-🌈life-生活
 	- #400-😝interest-兴趣
 - ## 其他
+  collapsed:: true
 	- [[✨ changelog，系统迭代日志]]
 	- [[README]]
--
