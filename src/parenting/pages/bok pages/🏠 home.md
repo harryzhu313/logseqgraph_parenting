@@ -56,7 +56,6 @@ collapsed:: true
 	- #000-📥inbox
 	- #zzz-📦archive
 - ## 分类视图 classification perspective
-  collapsed:: true
 	- > 经典的杜威十进制分类，请参考《知识管理 OS》训练营的对应课程。
 	- #100-👷Job-工作
 	- #200-🧑‍🎓learning-学习
