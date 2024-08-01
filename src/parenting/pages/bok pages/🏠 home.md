@@ -1,5 +1,4 @@
 ## 📥 inbox 收集箱
-collapsed:: true
 	- #000-📥inbox
 - ## 🏗️ projects 项目
   collapsed:: true
