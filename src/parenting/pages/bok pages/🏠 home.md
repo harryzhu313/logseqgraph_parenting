@@ -17,6 +17,8 @@
 			- {{query (property :tags "#s5-★★★★★")}}
 			  query-table:: true
 			  query-properties:: [:page :tags :exclude-from-graph-view]
+			  query-sort-by:: tags
+			  query-sort-desc:: true
 		- #s4-★★★★☆
 		  collapsed:: true
 			- > 相当重要
