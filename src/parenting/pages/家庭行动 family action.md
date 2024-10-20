@@ -6,6 +6,7 @@
 - ## 周末外出
 	- 书店
 	- 博物馆
+		- https://mp.weixin.qq.com/s/2rJWdrjd80vAoriwbcUgpw
 	- 军事博物馆
 	- 艺术馆
 	- 动物园
