@@ -7,7 +7,6 @@
 	- #303-LifeExperience-生活经验，积累与体会
 	- #304-Tour-旅游规划
 - ## 🌲 BoK 知识体系
-  collapsed:: true
 	- ### 知识树视图 bok perspective
 		- {{query (property :tags "#🌲BoK-知识体系")}}
 		- {{query (property :tags "#🌲BoK-主题研究")}}
@@ -57,6 +56,7 @@
 	- #000-📥inbox
 	- #zzz-📦archive
 - ## 分类视图 classification perspective
+  collapsed:: true
 	- > 经典的杜威十进制分类，请参考《知识管理 OS》训练营的对应课程。
 	- #100-👷Job-工作
 	- #200-🧑‍🎓learning-学习
@@ -64,6 +64,5 @@
 	- #300-🌈life-生活
 	- #400-😝interest-兴趣
 - ## 其他
-  collapsed:: true
 	- [[✨ changelog，系统迭代日志]]
 	- [[README]]
