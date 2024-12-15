@@ -2,6 +2,13 @@ public:: true
 tags:: #[[⚙️ system files 系统文件]] 
 exclude-from-graph-view:: true
 
+- ## 📥 inbox 收集箱
+	- #000-📥inbox
+- ## 🏗️ projects 项目
+	- {{query (page-property :tags "#🏗️projects-项目")}}
+- ## 🌲 BoK 个人知识体系
+	- #[[🌲 BoK-知识树]]
+	- {{query (page-property :tags [[🌲 BoK-知识树]])}}
 - ## 🔎 分类查看
 	- ### 1 按领域分类 areas
 		- #[[300-🌈life 生活]]

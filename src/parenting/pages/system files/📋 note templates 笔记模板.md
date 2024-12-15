@@ -3,10 +3,10 @@ exclude-from-graph-view:: true
 
 - > 这是小能熊`费曼学习 OS`的通用笔记模板。请根据个人实际需求增加、删除、修改。
 - ### resources：资源类笔记的专用模板；
+  collapsed:: true
 	- movie journal
 	  template:: movie journal
 	  template-including-parent:: false
-	  collapsed:: true
 		- director:: 
 		  release-year:: 
 		  watch-date:: 
@@ -138,12 +138,27 @@ exclude-from-graph-view:: true
 		- TODO
 		- TODO
 - ### 费曼学习OS
+	- **plain notes** ；
+	  template:: plain note template
+	  template-including-parent:: false
+		- tags:: #000-📥inbox, #p1-🫐seed-种子, #s3-★★★☆☆ 
+		  created:: 
+		  bok::
+		  public::
+		  iteration::
+		  alias::
+		- ## ref.
+		- ## archive.
 	- **2w2h费曼笔记模板** ：candobear note template，用于知识砖块类笔记；
 	  template:: 2w2h note template
 	  template-including-parent:: false
 	  collapsed:: true
 		- tags:: #000-📥inbox, #p1-🫐seed-种子, #s3-★★★☆☆ 
+		  created:: 
+		  bok::
+		  public::
 		  iteration::
+		  alias::
 		- ## why
 		- ## what
 		- ## how
@@ -155,9 +170,12 @@ exclude-from-graph-view:: true
 	- **知识树模板** ：candobear bok template，用于知识树笔记；
 	  template:: bok template
 	  template-including-parent:: false
-	  collapsed:: true
 		- tags:: #[[🌲 BoK-知识树]], #p1-🫐seed-种子, #s5-★★★★★ 
+		  created:: 
+		  bok::
+		  public::
 		  iteration::
+		  alias::
 		- ## why
 		- ## what
 		- ## how
@@ -167,7 +185,6 @@ exclude-from-graph-view:: true
 		- ## resources
 		- ## archive
 - ## notes
-  collapsed:: true
 	- 为什么在笔记模板的页面属性中增加`iteration`？ #card
 		- 用于记录你对笔记砖块（note block，也是你大脑中的知识砖块）的每一次迭代；
 		- 知识的内化，不一定需要背诵。对于出了校门的人，应用是更好的内化方式；
