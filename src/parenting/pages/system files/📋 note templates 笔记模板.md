@@ -138,6 +138,7 @@ exclude-from-graph-view:: true
 		- TODO
 		- TODO
 - ### 费曼学习OS
+  collapsed:: true
 	- **plain notes** ；
 	  template:: plain note template
 	  template-including-parent:: false
@@ -170,6 +171,7 @@ exclude-from-graph-view:: true
 	- **知识树模板** ：candobear bok template，用于知识树笔记；
 	  template:: bok template
 	  template-including-parent:: false
+	  collapsed:: true
 		- tags:: #[[🌲 BoK-知识树]], #p1-🫐seed-种子, #s5-★★★★★ 
 		  created:: 
 		  bok::
@@ -184,6 +186,20 @@ exclude-from-graph-view:: true
 		- ## todo
 		- ## resources
 		- ## archive
+- ### 其他模板
+	- 生病记录模板
+	  template:: sick template
+	  template-including-parent:: false
+		- tags::  #p1-🫐seed-种子, #s3-★★★☆☆,  #[[FAQ]]
+		  created:: 
+		  public::
+		  iteration::
+		- ## 症状
+		- ## 发生时间
+		- ## 引起的原因
+		- ## 解决方案
+		- ## ref.
+		- ## archive.
 - ## notes
 	- 为什么在笔记模板的页面属性中增加`iteration`？ #card
 		- 用于记录你对笔记砖块（note block，也是你大脑中的知识砖块）的每一次迭代；
