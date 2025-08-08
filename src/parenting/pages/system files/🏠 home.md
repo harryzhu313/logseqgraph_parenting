@@ -59,5 +59,19 @@ exclude-from-graph-view:: true
 			- #[[💎resources 资源/podcasts]]
 			- #[[💎resources 资源/documentaries]]
 	- ### 6 [[用标签组合筛选透视]]
+	- #+BEGIN_QUERY
+	  {:title [:h3 "7. 最新新增页面 (Top 15)"]
+	   :query  [:find (pull ?p [*])
+	            :where
+	            [?p :block/created-at ?t]
+	            ;; 关联页面属性，防止漏掉 page-level 的 metadata
+	            [?b :block/page ?p]]
+	   :result-transform
+	   (fn [rs]
+	     (->> rs
+	          (sort-by (comp - :block/created-at)) ; 时间戳倒序
+	          (take 15)))
+	   :collapsed? false}
+	  #+END_QUERY
 - ## reference
 	- [[🗒️ notes/home 页面]]
